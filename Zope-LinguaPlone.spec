@@ -3,7 +3,7 @@ Summary:	Powerful add-on for multilingual content management
 Summary(pl):	Dodatek umo¿liwiaj±cy wygodn± pracê z wielojêzycznymi serwisami Plone
 Name:		Zope-%{zope_subname}
 Version:	0.7
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
