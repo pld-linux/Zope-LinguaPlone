@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
 # Source0-md5:	ec534fe349301a5bbf577b5cfcdf5a6a
 URL:		http://sourceforge.net/projects/collective/
 Requires(post,postun):	/usr/sbin/installzopeproduct
+BuildRequires:  python
 %pyrequires_eq	python-modules
 Requires:	Zope
 Requires:	Zope-archetypes >= 1.3
