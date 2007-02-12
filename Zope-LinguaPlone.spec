@@ -1,6 +1,6 @@
 %define		zope_subname	LinguaPlone
 Summary:	Powerful add-on for multilingual content management
-Summary(pl.UTF-8):   Dodatek umożliwiający wygodną pracę z wielojęzycznymi serwisami Plone
+Summary(pl.UTF-8):	Dodatek umożliwiający wygodną pracę z wielojęzycznymi serwisami Plone
 Name:		Zope-%{zope_subname}
 Version:	0.7
 Release:	2
