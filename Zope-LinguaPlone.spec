@@ -1,6 +1,6 @@
 %define		zope_subname	LinguaPlone
 Summary:	Powerful add-on for multilingual content management
-Summary(pl):	Dodatek umo¿liwiaj±cy wygodn± pracê z wielojêzycznymi serwisami Plone
+Summary(pl.UTF-8):   Dodatek umoÅ¼liwiajÄ…cy wygodnÄ… pracÄ™ z wielojÄ™zycznymi serwisami Plone
 Name:		Zope-%{zope_subname}
 Version:	0.7
 Release:	2
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 LinguaPlone is a powerful add-on for multilingual content management.
 
-%description -l pl
-LinguaPlone jest dodatkiem umo¿liwiaj±cym wygodn± pracê z
-wielojêzycznymi serwisami Plone.
+%description -l pl.UTF-8
+LinguaPlone jest dodatkiem umoÅ¼liwiajÄ…cym wygodnÄ… pracÄ™ z
+wielojÄ™zycznymi serwisami Plone.
 
 %prep
 %setup -q -n %{zope_subname}
